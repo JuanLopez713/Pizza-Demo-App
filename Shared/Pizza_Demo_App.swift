@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MVVM_DemoApp: App {
+struct Pizza_Demo_App: App {
     var body: some Scene {
         WindowGroup {
             PizzaContentView()

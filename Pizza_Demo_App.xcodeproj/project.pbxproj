@@ -12,13 +12,9 @@
 		0D52952D28DE439D00529EBC /* RecipeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D52952C28DE439D00529EBC /* RecipeContentView.swift */; };
 		0D52957628DFC07100529EBC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D52957528DFC07100529EBC /* DataService.swift */; };
 		0D52957A28DFD10B00529EBC /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D52957928DFD10B00529EBC /* PizzaDetailView.swift */; };
-		0D52957B28DFD18000529EBC /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E722764029F00752DF5 /* PizzaModel.swift */; };
-		0D884E5B2763EF3E00752DF5 /* MVVM_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E4B2763EF3C00752DF5 /* MVVM_DemoApp.swift */; };
-		0D884E5C2763EF3E00752DF5 /* MVVM_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E4B2763EF3C00752DF5 /* MVVM_DemoApp.swift */; };
+		0D884E5B2763EF3E00752DF5 /* Pizza_Demo_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E4B2763EF3C00752DF5 /* Pizza_Demo_App.swift */; };
 		0D884E5D2763EF3E00752DF5 /* PizzaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E4C2763EF3C00752DF5 /* PizzaContentView.swift */; };
-		0D884E5E2763EF3E00752DF5 /* PizzaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E4C2763EF3C00752DF5 /* PizzaContentView.swift */; };
 		0D884E5F2763EF3E00752DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D884E4D2763EF3E00752DF5 /* Assets.xcassets */; };
-		0D884E602763EF3E00752DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D884E4D2763EF3E00752DF5 /* Assets.xcassets */; };
 		0D884E6D2763F01600752DF5 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E6C2763F01600752DF5 /* Recipe.swift */; };
 		0D884E6F2763F09000752DF5 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E6E2763F09000752DF5 /* RecipeModel.swift */; };
 		0D884E712763F70800752DF5 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D884E702763F70800752DF5 /* Pizza.swift */; };
@@ -31,11 +27,10 @@
 		0D52952C28DE439D00529EBC /* RecipeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeContentView.swift; sourceTree = "<group>"; };
 		0D52957528DFC07100529EBC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0D52957928DFD10B00529EBC /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
-		0D884E4B2763EF3C00752DF5 /* MVVM_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_DemoApp.swift; sourceTree = "<group>"; };
+		0D884E4B2763EF3C00752DF5 /* Pizza_Demo_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_Demo_App.swift; sourceTree = "<group>"; };
 		0D884E4C2763EF3C00752DF5 /* PizzaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaContentView.swift; sourceTree = "<group>"; };
 		0D884E4D2763EF3E00752DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D884E522763EF3E00752DF5 /* Food Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D884E582763EF3E00752DF5 /* MVVM Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D884E5A2763EF3E00752DF5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		0D884E6C2763F01600752DF5 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		0D884E6E2763F09000752DF5 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -45,13 +40,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0D884E4F2763EF3E00752DF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D884E552763EF3E00752DF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0D884E4D2763EF3E00752DF5 /* Assets.xcassets */,
-				0D884E4B2763EF3C00752DF5 /* MVVM_DemoApp.swift */,
+				0D884E4B2763EF3C00752DF5 /* Pizza_Demo_App.swift */,
 				0D884E692763EF8200752DF5 /* Views */,
 				0D884E6B2763EF8E00752DF5 /* ViewModels */,
 				0D884E6A2763EF8800752DF5 /* Models */,
@@ -105,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				0D884E522763EF3E00752DF5 /* Food Demo.app */,
-				0D884E582763EF3E00752DF5 /* MVVM Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D884E512763EF3E00752DF5 /* MVVM Demo (iOS) */ = {
+		0D884E512763EF3E00752DF5 /* Pizza_Demo_App (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D884E632763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "MVVM Demo (iOS)" */;
+			buildConfigurationList = 0D884E632763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "Pizza_Demo_App (iOS)" */;
 			buildPhases = (
 				0D884E4E2763EF3E00752DF5 /* Sources */,
 				0D884E4F2763EF3E00752DF5 /* Frameworks */,
@@ -161,26 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVVM Demo (iOS)";
+			name = "Pizza_Demo_App (iOS)";
 			productName = "MVVM Demo (iOS)";
 			productReference = 0D884E522763EF3E00752DF5 /* Food Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		0D884E572763EF3E00752DF5 /* MVVM Demo (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D884E662763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "MVVM Demo (macOS)" */;
-			buildPhases = (
-				0D884E542763EF3E00752DF5 /* Sources */,
-				0D884E552763EF3E00752DF5 /* Frameworks */,
-				0D884E562763EF3E00752DF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MVVM Demo (macOS)";
-			productName = "MVVM Demo (macOS)";
-			productReference = 0D884E582763EF3E00752DF5 /* MVVM Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,12 +166,9 @@
 					0D884E512763EF3E00752DF5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					0D884E572763EF3E00752DF5 = {
-						CreatedOnToolsVersion = 13.1;
-					};
 				};
 			};
-			buildConfigurationList = 0D884E492763EF3C00752DF5 /* Build configuration list for PBXProject "MVVM Demo" */;
+			buildConfigurationList = 0D884E492763EF3C00752DF5 /* Build configuration list for PBXProject "Pizza_Demo_App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,8 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D884E512763EF3E00752DF5 /* MVVM Demo (iOS) */,
-				0D884E572763EF3E00752DF5 /* MVVM Demo (macOS) */,
+				0D884E512763EF3E00752DF5 /* Pizza_Demo_App (iOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -228,14 +194,6 @@
 				0D884E5F2763EF3E00752DF5 /* Assets.xcassets in Resources */,
 				0D52952928DE311F00529EBC /* data.json in Resources */,
 				0D52952B28DE338F00529EBC /* pizza.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D884E562763EF3E00752DF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D884E602763EF3E00752DF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,18 +211,8 @@
 				0D884E5D2763EF3E00752DF5 /* PizzaContentView.swift in Sources */,
 				0D884E712763F70800752DF5 /* Pizza.swift in Sources */,
 				0D52952D28DE439D00529EBC /* RecipeContentView.swift in Sources */,
-				0D884E5B2763EF3E00752DF5 /* MVVM_DemoApp.swift in Sources */,
+				0D884E5B2763EF3E00752DF5 /* Pizza_Demo_App.swift in Sources */,
 				0D52957628DFC07100529EBC /* DataService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D884E542763EF3E00752DF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D884E5E2763EF3E00752DF5 /* PizzaContentView.swift in Sources */,
-				0D884E5C2763EF3E00752DF5 /* MVVM_DemoApp.swift in Sources */,
-				0D52957B28DFD18000529EBC /* PizzaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,62 +389,10 @@
 			};
 			name = Release;
 		};
-		0D884E672763EF3E00752DF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lopezscript.MVVM-Demo";
-				PRODUCT_NAME = "MVVM Demo";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		0D884E682763EF3E00752DF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lopezscript.MVVM-Demo";
-				PRODUCT_NAME = "MVVM Demo";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D884E492763EF3C00752DF5 /* Build configuration list for PBXProject "MVVM Demo" */ = {
+		0D884E492763EF3C00752DF5 /* Build configuration list for PBXProject "Pizza_Demo_App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D884E612763EF3E00752DF5 /* Debug */,
@@ -505,20 +401,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D884E632763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "MVVM Demo (iOS)" */ = {
+		0D884E632763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "Pizza_Demo_App (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D884E642763EF3E00752DF5 /* Debug */,
 				0D884E652763EF3E00752DF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D884E662763EF3E00752DF5 /* Build configuration list for PBXNativeTarget "MVVM Demo (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D884E672763EF3E00752DF5 /* Debug */,
-				0D884E682763EF3E00752DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
