@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Meat Lovers",
+        "image":"meatlovers",
+        "toppings":["Pepperoni", "Sausage", "Ham"]
+    },
+    {
+        "name":"Hawaiian",
+        "image":"hawaiian",
+        "toppings":["Pineapple", "Ham", "Cheese"]
+    },
+    {
+        "name":"Veggie Deluxe",
+        "image":"deluxe",
+        "toppings":["Pepper", "Onion", "Spinach"]
+    }
+]
